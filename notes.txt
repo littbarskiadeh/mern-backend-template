@@ -1,0 +1,11 @@
+To use modern ES6 syntax:
+- npm install --save-dev @babel/core @babel/node @babel/preset-env
+- create babelrc file to use preset-env
+{
+    "presets": ["@babel/preset-env"]
+}
+- create start script with: npx babel-node index.js
+  "start": "nodemon --exec babel-node src/server.js"
+- create folder structure for src/routes/index.js
+- create routes template
+- add bodyParser
